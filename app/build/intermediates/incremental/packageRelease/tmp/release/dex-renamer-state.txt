@@ -1,4 +1,0 @@
-#Mon Jun 08 11:36:59 CST 2020
-base.0=/OkhtpUtils/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
