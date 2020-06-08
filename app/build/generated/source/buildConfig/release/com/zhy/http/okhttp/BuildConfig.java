@@ -8,6 +8,6 @@ public final class BuildConfig {
   public static final String APPLICATION_ID = "com.zhy.http.okhttp";
   public static final String BUILD_TYPE = "release";
   public static final String FLAVOR = "";
-  public static final int VERSION_CODE = 2000;
-  public static final String VERSION_NAME = "2.0.0";
+  public static final int VERSION_CODE = 2004;
+  public static final String VERSION_NAME = "2.0.4";
 }

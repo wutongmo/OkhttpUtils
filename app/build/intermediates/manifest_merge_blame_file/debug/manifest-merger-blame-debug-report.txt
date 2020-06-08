@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.zhy.http.okhttp"
-4    android:versionCode="2000"
-5    android:versionName="2.0.0" >
+4    android:versionCode="2004"
+5    android:versionName="2.0.4" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="18"
@@ -25,22 +25,23 @@
 17-->/OkhtpUtils/app/src/main/AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
 18-->/OkhtpUtils/app/src/main/AndroidManifest.xml:10:9-35
-19        android:theme="@style/AppTheme" >
-19-->/OkhtpUtils/app/src/main/AndroidManifest.xml:11:9-40
-20        <activity android:name="com.zhy.http.okhttp.MainActivity" >
-20-->/OkhtpUtils/app/src/main/AndroidManifest.xml:12:9-18:20
-20-->/OkhtpUtils/app/src/main/AndroidManifest.xml:12:19-47
-21            <intent-filter>
-21-->/OkhtpUtils/app/src/main/AndroidManifest.xml:13:13-17:29
-22                <action android:name="android.intent.action.MAIN" />
-22-->/OkhtpUtils/app/src/main/AndroidManifest.xml:14:17-69
-22-->/OkhtpUtils/app/src/main/AndroidManifest.xml:14:25-66
-23
-24                <category android:name="android.intent.category.LAUNCHER" />
-24-->/OkhtpUtils/app/src/main/AndroidManifest.xml:16:17-77
-24-->/OkhtpUtils/app/src/main/AndroidManifest.xml:16:27-74
-25            </intent-filter>
-26        </activity>
-27    </application>
-28
-29</manifest>
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->/OkhtpUtils/app/src/main/AndroidManifest.xml:11:9-40
+21        <activity android:name="com.zhy.http.okhttp.MainActivity" >
+21-->/OkhtpUtils/app/src/main/AndroidManifest.xml:12:9-18:20
+21-->/OkhtpUtils/app/src/main/AndroidManifest.xml:12:19-47
+22            <intent-filter>
+22-->/OkhtpUtils/app/src/main/AndroidManifest.xml:13:13-17:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->/OkhtpUtils/app/src/main/AndroidManifest.xml:14:17-69
+23-->/OkhtpUtils/app/src/main/AndroidManifest.xml:14:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->/OkhtpUtils/app/src/main/AndroidManifest.xml:16:17-77
+25-->/OkhtpUtils/app/src/main/AndroidManifest.xml:16:27-74
+26            </intent-filter>
+27        </activity>
+28    </application>
+29
+30</manifest>
